@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e3a6425-9905-4dbd-90b6-ab2e73e32ad4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/Assert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/Click.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/Close.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/OpenUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/PressEnter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/ScrollTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/SetBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/SetBrowserSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/SetValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/ShouldBe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/json_utils/Convertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/json_utils/JsonExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/json_utils/JsonReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/json_utils/json_keys/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/json_utils/json_keys/ActionArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/logger/MyLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/logger/TestLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/path/MyPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/CommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/ElementFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/TestBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/json_tests/assert_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/json_tests/scrollto_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/json_tests/search_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/json_tests/search_test2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/json_tests/should_be_visible_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testBuilder/TestClass.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2c2FeywZDBVuH9Reoi2BGGdA6QM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/###JAVA_PROJECT###/Testing/TestBuilder&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\###JAVA_PROJECT###\Testing\TestBuilder\src\main\json_tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestClass">
+    <configuration name="TestClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testBuilder.TestClass&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestClass.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testBuilder.TestClass.test1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestBuilder.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.testing" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestBuilder.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestClass" />
+      <option name="METHOD_NAME" value="testing" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.testing1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestBuilder.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestClass" />
+      <option name="METHOD_NAME" value="testing1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestClass" />
+        <item itemvalue="TestNG.TestClass.testing" />
+        <item itemvalue="Gradle.TestClass.test1" />
+        <item itemvalue="Gradle.TestClass" />
+        <item itemvalue="TestNG.TestClass.testing1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e3a6425-9905-4dbd-90b6-ab2e73e32ad4" name="Changes" comment="" />
+      <created>1707301871448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707301871448</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+[
+  {
+    "info": "open website: rozetka",
+    "action": "open",
+    "url": "https://rozetka.com.ua/"
+  },
+
+  {
+    "info": "checking fat menu text",
+    "action": "assert",
+    "selector_type": "element id",
+    "selector": "fat-menu",
+    "value": "Каталог"
+  },
+
+  {
+    "info": "close browser",
+    "action": "close"
+  }
+]

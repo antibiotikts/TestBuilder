@@ -1,0 +1,23 @@
+[
+  {
+    "action": "open",
+    "url": "https://rozetka.com.ua/"
+  },
+
+  {
+    "action": "set value",
+    "selector_type": "xpath",
+    "selector": ".//input[@name='search']",
+    "value": "bosch"
+  },
+
+  {
+    "action": "press enter",
+    "selector_type": "xpath",
+    "selector": ".//input[@name='search']"
+  },
+
+  {
+    "action": "close"
+  }
+]
