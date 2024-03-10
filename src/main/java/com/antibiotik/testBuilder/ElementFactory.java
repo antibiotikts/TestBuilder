@@ -23,7 +23,7 @@ public class ElementFactory {
 		} else if(instruction.has("element")) {
 			String elementName = JsonExtractor.getString(instruction,"element", logger);
 			MyElement element = elements.getElementsMap().get(elementName);
-			createElement(locatorType, element.getSelectorByType(locatorType));
+			return createElement(locatorType, element.getSelectorByType(locatorType));
 		}
 
 		return null;

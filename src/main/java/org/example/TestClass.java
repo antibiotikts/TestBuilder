@@ -1,5 +1,6 @@
 package org.example;
 
+import com.antibiotik.element.Elements;
 import com.antibiotik.json_utils.JsonReader;
 import com.antibiotik.logger.TestLogger;
 import com.antibiotik.path.MyPaths;
@@ -10,10 +11,12 @@ public class TestClass {
 
 	@Test
 	public void testing() {
-		System.out.println("Start");
+
+		Elements elements = new Elements(new TestLogger(TestBuilder.class));
+		elements.createElementsMap(MyPaths.ELEMENTS.getPath());
 		TestBuilder testBuilder = new TestBuilder(new TestLogger(TestBuilder.class));
-		System.out.println("Create test builder object");
-		testBuilder.buildTest(new JsonReader(new TestLogger(JsonReader.class)).getJsonArray(MyPaths.BASE_TEST_CONFIG.getPath()));
+		testBuilder.addOutSideElements(elements);
+		testBuilder.buildTest(new JsonReader(new TestLogger(JsonReader.class)).getJsonArray(MyPaths.TEST.getPath()));
 		testBuilder.executeCommands();
 	}
 }

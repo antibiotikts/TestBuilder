@@ -45,6 +45,13 @@ public class Elements {
 
 			MyElement myElement = new MyElement(logger);
 
+			myElement.setElement(jsonObject.optString("element", null));
+
+			if(myElement.getElement() == null) {
+				String errorMess = "Element not found";
+				logger.errorLog(errorMess);
+				continue;
+			}
 			myElement.setXpath(jsonObject.optString("xpath", null));
 			myElement.setId(jsonObject.optString("id", null));
 			myElement.setName(jsonObject.optString("name", null));
