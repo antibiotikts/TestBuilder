@@ -4,50 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3a6425-9905-4dbd-90b6-ab2e73e32ad4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/Assert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/Click.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/Close.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/OpenUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/PressEnter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/ScrollTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/SetBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/SetBrowserSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/SetValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/commands/ShouldBe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/json_utils/Convertor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/json_utils/JsonExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/json_utils/JsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/json_utils/json_keys/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/json_utils/json_keys/ActionArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/logger/MyLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/logger/TestLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/path/MyPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/CommandFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/ElementFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/TestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/json_tests/assert_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/json_tests/scrollto_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/json_tests/search_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/json_tests/search_test2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/json_tests/should_be_visible_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testBuilder/TestClass.java" afterDir="false" />
+    <list default="true" id="1e3a6425-9905-4dbd-90b6-ab2e73e32ad4" name="Changes" comment="__init__">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/element/Elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/element/MyElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/CommandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/CommandFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/ElementFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/ElementFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/TestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/TestBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -210,6 +174,18 @@
       <option name="presentableId" value="Default" />
       <updated>1707301871448</updated>
     </task>
+    <task id="LOCAL-00001" summary="__init__">
+      <created>1709822526087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709822526087</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="__init__" />
+    <option name="LAST_COMMIT_MESSAGE" value="__init__" />
   </component>
 </project>

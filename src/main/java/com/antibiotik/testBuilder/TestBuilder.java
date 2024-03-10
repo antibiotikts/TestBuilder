@@ -1,6 +1,7 @@
 package com.antibiotik.testBuilder;
 
 import com.antibiotik.commands.Command;
+import com.antibiotik.element.Elements;
 import com.antibiotik.json_utils.Convertor;
 import com.antibiotik.logger.MyLogger;
 import org.json.JSONArray;
@@ -12,7 +13,7 @@ import java.util.Queue;
 
 public class TestBuilder {
 	private final MyLogger logger;
-
+	private Elements elements;
 	private final Queue<Command> commandQueue = new LinkedList<>();
 
 	public TestBuilder(MyLogger logger) {
@@ -33,7 +34,7 @@ public class TestBuilder {
 		}
 
 		for (JSONObject step : stepsList) {
-			commandQueue.add(CommandFactory.createCommand(step, logger));
+			commandQueue.add(CommandFactory.createCommand(step, elements, logger));
 		}
 	}
 
@@ -44,7 +45,7 @@ public class TestBuilder {
 		}
 
 		for (JSONObject step : stepsList) {
-			commandQueue.add(CommandFactory.createCommand(step, logger));
+			commandQueue.add(CommandFactory.createCommand(step, elements, logger));
 		}
 	}
 
@@ -58,5 +59,9 @@ public class TestBuilder {
 		while (!commandQueue.isEmpty()) {
 			commandQueue.poll().execute();
 		}
+	}
+
+	public void addOutSideElements(Elements elements) {
+		this.elements = elements;
 	}
 }

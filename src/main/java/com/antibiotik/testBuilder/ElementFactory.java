@@ -1,5 +1,7 @@
 package com.antibiotik.testBuilder;
 
+import com.antibiotik.element.Elements;
+import com.antibiotik.element.MyElement;
 import com.antibiotik.json_utils.JsonExtractor;
 import com.antibiotik.json_utils.json_keys.ActionArgument;
 import com.antibiotik.logger.MyLogger;
@@ -11,11 +13,20 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class ElementFactory {
 
-	public static SelenideElement getElement(JSONObject instruction, MyLogger logger) {
+	public static SelenideElement getElement(JSONObject instruction, Elements elements, MyLogger logger) {
 		String locatorType = JsonExtractor.getString(instruction, ActionArgument.SELECTOR_TYPE.getKey(), logger);
-		String locatorValue = JsonExtractor.getString(instruction, ActionArgument.SELECTOR.getKey(), logger);
 
-		return createElement(locatorType, locatorValue);
+		if (instruction.has(ActionArgument.SELECTOR.getKey())) {
+			String locatorValue = JsonExtractor.getString(instruction, ActionArgument.SELECTOR.getKey(), logger);
+			return createElement(locatorType, locatorValue);
+
+		} else if(instruction.has("element")) {
+			String elementName = JsonExtractor.getString(instruction,"element", logger);
+			MyElement element = elements.getElementsMap().get(elementName);
+			createElement(locatorType, element.getSelectorByType(locatorType));
+		}
+
+		return null;
 	}
 
 	private static SelenideElement createElement(String locatorType, String locatorValue) {
@@ -36,4 +47,5 @@ public class ElementFactory {
 				return null;
 		}
 	}
+
 }
