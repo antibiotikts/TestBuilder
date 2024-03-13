@@ -11,7 +11,6 @@ public class TestClass {
 
 	@Test
 	public void testing() {
-
 		Elements elements = new Elements(new TestLogger(TestBuilder.class));
 		elements.createElementsMap(MyPaths.ELEMENTS.getPath());
 		TestBuilder testBuilder = new TestBuilder(new TestLogger(TestBuilder.class));
