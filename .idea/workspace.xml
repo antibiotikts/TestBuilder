@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3a6425-9905-4dbd-90b6-ab2e73e32ad4" name="Changes" comment="Added the ability to connect external file for elements.&#10;Did not test it!">
-      <change afterPath="$PROJECT_DIR$/src/main/json_tests/my_elements.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/json_tests/test.json" afterDir="false" />
+    <list default="true" id="1e3a6425-9905-4dbd-90b6-ab2e73e32ad4" name="Changes" comment="Fix ElementFactory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/antibiotik/element/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/element/Elements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/antibiotik/path/MyPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/path/MyPaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/antibiotik/element/MyElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/element/MyElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/ElementFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/ElementFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/TestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/TestBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,15 +38,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-11",
-    "last_opened_file_path": "F:/###JAVA_PROJECT###/Testing/TestBuilder/src/main/json_tests"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/###JAVA_PROJECT###/Instrument_tests/JSON_Schema&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\###JAVA_PROJECT###\Testing\TestBuilder\src\main\json_tests" />
@@ -187,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710070443180</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix ElementFactory">
+      <created>1710078391080</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710078391080</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,34 +209,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="__init__" />
     <MESSAGE value="Added the ability to connect external file for elements.&#10;Did not test it!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the ability to connect external file for elements.&#10;Did not test it!" />
+    <MESSAGE value="Fix ElementFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix ElementFactory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/antibiotik/commands/SetValue.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/ElementFactory.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/ElementFactory.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/antibiotik/testBuilder/ElementFactory.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/antibiotik/element/MyElement.java</url>
-          <line>22</line>
+          <line>19</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

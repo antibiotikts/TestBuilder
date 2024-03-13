@@ -1,9 +1,6 @@
 package com.antibiotik.element;
 
 import com.antibiotik.logger.MyLogger;
-import org.openqa.selenium.By;
-
-import static com.codeborne.selenide.Selenide.$;
 
 public class MyElement {
 	private String element;
@@ -115,7 +112,8 @@ public class MyElement {
 			case "class name":
 				return class_name;
 			default:
-				String errorMess = "";
+				String errorMess = "This element type:" + selectorType + " is not registered.";
+				logger.errorLog(errorMess);
 				return null;
 		}
 	}

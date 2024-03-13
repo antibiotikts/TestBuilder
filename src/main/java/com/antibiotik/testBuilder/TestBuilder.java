@@ -22,6 +22,8 @@ public class TestBuilder {
 
 	public void buildTest(JSONArray steps) {
 		if(steps == null) {
+			String errorMess = "Method buildTest got null. Check its argument.";
+			logger.errorLog(errorMess);
 			assert false;
 			return;
 		}
@@ -29,6 +31,8 @@ public class TestBuilder {
 		List<JSONObject> stepsList = Convertor.toJsonObjectList(steps);
 
 		if(stepsList == null) {
+			String errorMess = "The list of test steps equal null";
+			logger.errorLog(errorMess);
 			assert false;
 			return;
 		}
